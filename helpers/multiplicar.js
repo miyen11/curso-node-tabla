@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const crearArchivoTablas = async()=>{
     try {
-        
+        console.log('Se agrego algo nuevo');
         let contenido = '';
         for(let j= 1 ; j <=10 ;j++){
             contenido += `\nTabla del ${j}\n`
